@@ -1,0 +1,32 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background:linear-gradient(to bottom , #555 , black);
+}
+
+.game-container{
+  width:600px;
+  height:600px;
+  position:relative;
+}
+
+.item{
+  background:#EEE;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  height:200px;
+  font-size: 65px;
+  position:absolute;
+}
